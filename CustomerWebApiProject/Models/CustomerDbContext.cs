@@ -20,5 +20,7 @@ namespace CustomerWebApiProject.Models
         }
 
 		public System.Data.Entity.DbSet<CustomerWebApiProject.Models.Customer> Customers { get; set; }
+
+		public System.Data.Entity.DbSet<CustomerWebApiProject.Models.Order> Orders { get; set; }
 	}
 }
